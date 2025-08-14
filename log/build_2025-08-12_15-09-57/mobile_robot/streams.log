@@ -1,0 +1,57 @@
+[0.007s] Invoking command in '/home/gustavo/ws_mobile/src/mobile_robot/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/gustavo/ws_mobile/src/mobile_robot -DCMAKE_INSTALL_PREFIX=/home/gustavo/ws_mobile/src/mobile_robot/install/mobile_robot
+[0.121s] -- The C compiler identification is GNU 13.3.0
+[0.224s] -- The CXX compiler identification is GNU 13.3.0
+[0.249s] -- Detecting C compiler ABI info
+[0.387s] -- Detecting C compiler ABI info - done
+[0.393s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.394s] -- Detecting C compile features
+[0.394s] -- Detecting C compile features - done
+[0.402s] -- Detecting CXX compiler ABI info
+[0.545s] -- Detecting CXX compiler ABI info - done
+[0.555s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.556s] -- Detecting CXX compile features
+[0.556s] -- Detecting CXX compile features - done
+[0.561s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.682s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.756s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.828s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.828s] -- Configured cppcheck include dirs: 
+[0.828s] -- Configured cppcheck exclude dirs and/or files: 
+[0.829s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.829s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.829s] -- Added test 'lint_cmake' to check CMake code style
+[0.830s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.832s] -- Added test 'uncrustify' to check C / C++ code style
+[0.832s] -- Configured uncrustify additional arguments: 
+[0.833s] -- Added test 'xmllint' to check XML markup files
+[0.834s] -- Configuring done (0.8s)
+[0.835s] -- Generating done (0.0s)
+[0.836s] -- Build files have been written to: /home/gustavo/ws_mobile/src/mobile_robot/build/mobile_robot
+[0.840s] Invoked command in '/home/gustavo/ws_mobile/src/mobile_robot/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/gustavo/ws_mobile/src/mobile_robot -DCMAKE_INSTALL_PREFIX=/home/gustavo/ws_mobile/src/mobile_robot/install/mobile_robot
+[0.840s] Invoking command in '/home/gustavo/ws_mobile/src/mobile_robot/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/gustavo/ws_mobile/src/mobile_robot/build/mobile_robot -- -j20 -l20
+[0.874s] Invoked command in '/home/gustavo/ws_mobile/src/mobile_robot/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/gustavo/ws_mobile/src/mobile_robot/build/mobile_robot -- -j20 -l20
+[0.886s] Invoking command in '/home/gustavo/ws_mobile/src/mobile_robot/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/gustavo/ws_mobile/src/mobile_robot/build/mobile_robot
+[0.901s] -- Install configuration: ""
+[0.901s] -- Installing: /home/gustavo/ws_mobile/src/mobile_robot/install/mobile_robot/share/mobile_robot/launch
+[0.901s] -- Installing: /home/gustavo/ws_mobile/src/mobile_robot/install/mobile_robot/share/mobile_robot/launch/gazebo_model.launch.py
+[0.901s] -- Installing: /home/gustavo/ws_mobile/src/mobile_robot/install/mobile_robot/share/mobile_robot/model
+[0.901s] -- Installing: /home/gustavo/ws_mobile/src/mobile_robot/install/mobile_robot/share/mobile_robot/model/robot.gazebo
+[0.901s] -- Installing: /home/gustavo/ws_mobile/src/mobile_robot/install/mobile_robot/share/mobile_robot/model/robot.xacro
+[0.901s] -- Installing: /home/gustavo/ws_mobile/src/mobile_robot/install/mobile_robot/share/mobile_robot/parameters
+[0.902s] -- Installing: /home/gustavo/ws_mobile/src/mobile_robot/install/mobile_robot/share/mobile_robot/parameters/bridge_parameters.yaml
+[0.902s] -- Installing: /home/gustavo/ws_mobile/src/mobile_robot/install/mobile_robot/share/ament_index/resource_index/package_run_dependencies/mobile_robot
+[0.902s] -- Installing: /home/gustavo/ws_mobile/src/mobile_robot/install/mobile_robot/share/ament_index/resource_index/parent_prefix_path/mobile_robot
+[0.902s] -- Installing: /home/gustavo/ws_mobile/src/mobile_robot/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.sh
+[0.902s] -- Installing: /home/gustavo/ws_mobile/src/mobile_robot/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.dsv
+[0.902s] -- Installing: /home/gustavo/ws_mobile/src/mobile_robot/install/mobile_robot/share/mobile_robot/environment/path.sh
+[0.902s] -- Installing: /home/gustavo/ws_mobile/src/mobile_robot/install/mobile_robot/share/mobile_robot/environment/path.dsv
+[0.902s] -- Installing: /home/gustavo/ws_mobile/src/mobile_robot/install/mobile_robot/share/mobile_robot/local_setup.bash
+[0.902s] -- Installing: /home/gustavo/ws_mobile/src/mobile_robot/install/mobile_robot/share/mobile_robot/local_setup.sh
+[0.902s] -- Installing: /home/gustavo/ws_mobile/src/mobile_robot/install/mobile_robot/share/mobile_robot/local_setup.zsh
+[0.902s] -- Installing: /home/gustavo/ws_mobile/src/mobile_robot/install/mobile_robot/share/mobile_robot/local_setup.dsv
+[0.902s] -- Installing: /home/gustavo/ws_mobile/src/mobile_robot/install/mobile_robot/share/mobile_robot/package.dsv
+[0.902s] -- Installing: /home/gustavo/ws_mobile/src/mobile_robot/install/mobile_robot/share/ament_index/resource_index/packages/mobile_robot
+[0.902s] -- Installing: /home/gustavo/ws_mobile/src/mobile_robot/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig.cmake
+[0.902s] -- Installing: /home/gustavo/ws_mobile/src/mobile_robot/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig-version.cmake
+[0.903s] -- Installing: /home/gustavo/ws_mobile/src/mobile_robot/install/mobile_robot/share/mobile_robot/package.xml
+[0.904s] Invoked command in '/home/gustavo/ws_mobile/src/mobile_robot/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/gustavo/ws_mobile/src/mobile_robot/build/mobile_robot
